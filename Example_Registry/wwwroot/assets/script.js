@@ -24,3 +24,16 @@
   });
   
 })(jQuery);
+
+const hello = () => {
+    console.log("HEllo")
+}
+
+
+/*document.getElementBy("myBtn").addEventListener("click", displayDate);*/
+document.addEventListener('click', function (e) {
+    console.log(e.target.parent);
+}, false);
+//function displayDate() {
+
+//}
